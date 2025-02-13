@@ -1,0 +1,20 @@
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two-column layout */
+    gap: 20px; /* Space between fields */
+    max-width: 800px; /* Adjust width */
+    margin: auto;
+  }
+  
+  .form-container label {
+    font-weight: bold;
+  }
+  
+  .form-container input,
+  .form-container select {
+    width: 100%; /* Make inputs full-width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
